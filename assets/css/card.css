@@ -1,0 +1,118 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    padding-top: 25px;
+    border: 1px solid black;
+    background-color: white;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    text-align: center;
+}
+
+.tgIcon {
+    width: 23px;
+    height: 23px;
+}
+
+.residentPlace {
+    color: rgb(85, 85, 85);
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    aspect-ratio: 1 / 1;
+}
+
+.imageWrapper img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 1px 1px 8px 1px rgb(201, 201, 201);
+}
+
+.userName {
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: rgb(41, 41, 41);
+}
+
+.bio {
+    width: 85%;
+    text-align: center;
+}
+
+.followBtn {
+    width: 180px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: #66B4FF;
+    box-shadow: 0px 2px 2px 2px #4987c2;
+}
+
+.bottomContainer {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid black;
+    background-color: #1F354C;
+}
+
+.block {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.block:nth-child(2) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.bottomInfo {
+    color: rgb(255, 102, 0);
+    padding-bottom: 4px;
+}
+
+.bottomInfoCount {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
