@@ -102,9 +102,22 @@ body {
     cursor: pointer;
 }
 
+.block img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    transform: translate(-10px, 0px);
+}
+
 .block:nth-child(2) {
     border-left: 1px solid black;
     border-right: 1px solid black;
+}
+
+.block div:nth-child(2) {
+    transform: translate(-13px, 0px);
 }
 
 .bottomInfo {
@@ -116,4 +129,9 @@ body {
     color: white;
     font-size: 13px;
     text-align: center;
+}
+
+.block:nth-child(3) img {
+    width: 35px;
+    height: 35px;
 }
